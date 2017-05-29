@@ -1,0 +1,24 @@
+#nav{
+	float:left;
+	width:100%;
+	list-style:none;
+	font-weight:bold;
+}
+#nav li{
+	float:left;
+	position:relative;
+}
+#nav li a{
+	color:#333;
+	font-size:12pt;
+	text-decoration:none;
+	text-transform: uppercase;
+	text-shadow:1px 1px 1px rgba(0,0,0,.5);
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#nav li a:hover{
+	color:#ff8888;
+	text-shadow:0px 0px 0px rgba(0,0,0,0);
+}

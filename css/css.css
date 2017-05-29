@@ -1,0 +1,253 @@
+
+ html {
+    overflow-x: hidden;
+}
+
+#content {
+    background:#fffff0;
+    padding: 0% 5% 10% 5%;
+    min-height: 100px;
+}
+#content_uslugi{
+    background:#fffff0;
+    padding: 0% 5% 10% 5%;
+    min-height: 60%;
+}
+#menu_top
+{
+    position:absolute;
+    z-index:1;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-indent: 28pt;
+    font-family:arial;
+    font-size:12pt;
+    background: url(images/bg.png)"
+    }
+header {
+    background:rgba(135,206,250,0.80);
+    background: linear-gradient(to top, #fafafa, #ccc);
+    padding: 10px;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    height: 100px;
+    width: 100%;
+}
+footer {
+    width:100%;
+    height:60px;
+    border-top: 2px solid #ccc;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to bottom, #fafafa, #ccc);
+}
+.logo {
+   text-align: center;
+}
+
+.page {
+   position: relative;
+}
+#stl_text {
+    display: block;
+    height: 15px;
+    color: #466a94;
+    font-size: 12.5px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 19px;
+    padding: 0 24px;
+    background: url(/images/dev_toplink.png) no-repeat;
+    background-position: left 0;
+}
+.stl_active {
+    cursor: pointer;
+}
+#stl_left {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+element.style {
+    width: 295px;
+    display: block;
+    opacity: 1;
+}
+#stl_bg {
+    height: 100%;
+    width: 114px;
+    padding-top: 60px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -o-transition: background-color 200ms linear, opacity 200ms linear;
+    transition: background-color 200ms linear, opacity 200ms linear;
+}
+
+#calc {
+    width: 100%;
+    background-color: #fdfdfd;
+}
+
+#form_calc {
+    background-color: #f8f8f8;
+    width: 50%;
+    position:relative;
+    margin:0 auto;
+    padding: 10px;
+}
+
+#form_calc input {
+    width: 80%;
+    padding: 1%;
+}
+
+#form_calc  input:hover,
+            input:focus,
+            textarea:hover,
+            textarea:focus {
+    border: 2px inset #fff;
+}
+
+.form_calc_menu {
+    background-color: #f8f8f8;
+    width: 80%;
+    position:relative;
+    padding: 1%;
+}
+
+a.open_menu {
+    display: block;
+    background: #000 url(images/mobile_menu_ccc.gif) no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a.open_menu:hover {
+    background: #000 url(images/mobile_menu_333.gif) no-repeat;
+}
+
+.num {
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    color: #222;
+}
+
+.uslugi_1 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red.jpg) no-repeat 50% 30px;
+    overflow: hidden;
+}
+
+.uslugi_2 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(images/gazel.png) no-repeat 50% 30px;
+    overflow: hidden;
+}
+
+.uslugi_3 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red.jpg) no-repeat 50% 30px;
+    overflow: hidden;
+}
+.uslugi_4 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red) no-repeat 50% 30px;
+    overflow: hidden;
+}
+
+.uslugi_1 a{
+    text-decoration: none;
+    color:#f00;
+}
+
+.uslugi_2 a{
+    text-decoration: none;
+    color:#f00;
+    
+}
+
+.uslugi_3 a{
+    text-decoration: none;
+    color:#f00;
+}
+
+.uslugi_4 a{
+    text-decoration: none;
+    color:#f00;
+    
+}
+
+.uslugi_1 a:hover{
+    text-decoration: none;
+    color:#333;
+}
+
+.uslugi_2 a:hover{
+    text-decoration: none;
+    color:#333;
+    
+}
+
+.uslugi_3 a:hover{
+    text-decoration: none;
+    color:#333;
+}
+
+.uslugi_4 a:hover{
+    text-decoration: none;
+    color:#333;
+    
+}
+
+.uslugi_1 img {
+    height: 170px;
+}
+.uslugi_2 img {
+    height: 170px;
+}
+.uslugi_3 img {
+    height: 170px;
+}
+.uslugi_4 img {
+    height: 130px;
+}
+
+#ikonka_dop1 {
+    background: url(img/red) no-repeat 50% 30px;
+}
+
+.vk_comments {
+    width: 300px;
+    height: 100%;
+}

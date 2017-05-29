@@ -1,0 +1,173 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>Грузоперевозки</title>
+  <link rel="icon" href="./images/image1.gif">
+  <link rel="stylesheet" href="./css/css.css">
+  <link rel="stylesheet" href="./css/css1.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/button.css">
+ 
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <script type="./js/slide.js"></script>
+ <!--Назад вверх-->
+ <link rel="stylesheet" href="./css/css2.css">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="./js/js.js"></script>
+
+
+
+
+
+
+
+<!--КНОПНКА НАВЕХ-->
+<script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('<style>'+
+		'.scrollTop{ display:none; z-index:9999; position:fixed;'+
+			'bottom:20px; left:5%; width:88px; height:125px;'+
+			'background:url(images/top_arrow.gif) 0 0 no-repeat; }' +
+		'.scrollTop:hover{ background-position:0 -133px;}'
+	+'</style>').appendTo('body');
+	var
+	speed = 440,
+	$scrollTop = $('<a href="#" class="scrollTop">').appendTo('body');		
+	$scrollTop.click(function(e){
+		e.preventDefault();
+		$( 'html:not(:animated),body:not(:animated)' ).animate({ scrollTop: 0}, speed );
+	});
+ 
+	//появление
+	function show_scrollTop(){
+		( $(window).scrollTop() > 330 ) ? $scrollTop.fadeIn(700) : $scrollTop.fadeOut(700);
+	}
+	$(window).scroll( function(){ show_scrollTop(); } );
+	show_scrollTop();
+});
+</script>
+
+
+
+
+
+
+
+
+
+<p id="back-top">
+<a href="#top"><span></span>Back to Top</a>
+</p>
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+<script type="text/javascript">VK.init({apiId: 6049031, onlyWidgets: true});
+</script>
+</head>
+
+<body id="top" text="#333333" vlink="#aaaaaa" link="#0000ff" bgcolor="#fffff0">
+</p>
+<div class="page">
+<header>
+<div id="menu_top">
+<table width="100%">
+<tr>
+	<td width="20%">
+	<div class="logo"><a href="./index.html"><img src="images/logo_right.png" height="40px"></a></div>
+
+<a class="num" href="tel:+79000000000">+7(900) 000-00-00</a>
+    </td>
+</tr>
+	<td>
+		<ul id="nav">
+			<li>
+			<!--Документики, О нашей шарашке, Новости-->
+				<a href="info.html">О нас</a>
+			</li>
+			<li>
+				<a href="uslugi.html">Услуги</a>
+			</li>
+		<li>
+				<a style="color: #f88" href="vopros.html">Задать вопрос</a>
+			</li>
+			<li>
+				<a href="kontakt.html">Контакты</a>
+			</li>
+		</ul>
+	</td>
+</tr>
+</table>
+</header>
+
+
+
+<div id="content">
+
+
+		<div>
+			<h2 style="text-align: center">Часто задаваемые вопросы</h2>
+			<ul>
+				<li><h4>Как узнать пришел ли мой груз?</h4><p>Самый простой способ – воспользоваться онлайн-сервисом. Далее ввести номер транспортной накладной, после чего откроется информация по грузу. В случае, если система не показывает текущий статус доставки, то вы всегда можете позвонить в филиал отправки или получения груза. Будьте готовы назвать номер накладной, дату отправки, фамилию получателя или название организации.</p></li>
+				<li><h4>Что такое негабаритный груз?</h4><pre>
+Негабаритным грузом считается:
+	Грузовое место весом более 200кг, неупакованное на паллет
+	Грузовое место весом более 1000кг, упакованное на паллет 
+	Грузовое место, длина которого более 3 м
+	Грузовое место, высота которого более 2,2 м
+	Грузовое место объемом более 2,5 м3
+	При перевозке негабаритного груза взимается +25% к тарифной стоимости.
+	</pre></li>
+				<li><h4>Какие документы нужны для отправки и получения груза?</h4><pre>Для отправки и получение груза необходимы следующие документы:
+
+Для юридических лиц:
+
+	Оригинал доверенности от организации и паспорт представителя.
+	Оригиналы сопроводительных документов (счет фактура, торг 12, товарный чек и т.д.).
+	Руководителям приказ о назначении, печать (при наличии), паспорт.
+
+Для индивидуальных предпринимателей:
+
+	Оригинал доверенность от ИП и паспорт представителя.
+	Оригиналы сопроводительных документов (счет фактура, торг 12, товарный чек и т.д.).
+	Собственникам свидетельство о регистрации ИП, печать (при наличии), паспорт.
+
+Для физических лиц:
+
+	Личное присутствие, паспорт.
+	Представитель грузополучателя может получить груз при наличии доверенности заверенной у нотариуса.
+	Опись груза
+</pre></li>
+			</ul>
+		</div>
+<h2>Не нашли ответа на свой вопрос?</h2>
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
+<div>		
+</div>
+</div>
+
+
+<footer>
+<ul id="nav">
+			<li>
+			<!--Документики, О нашей шарашке, Новости-->
+				<a href="info.html">О нас</a>
+			</li>
+			<li>
+				<a href="uslugi.html">Услуги</a>
+			</li>
+		<li>
+				<a style="color: #f88" href="vopros.html">Задать вопрос</a>
+			</li>
+			<li>
+				<a href="kontakt.html">Контакты</a>
+			</li>
+		</ul>
+</footer>
+</div>
+</body>
+</html>

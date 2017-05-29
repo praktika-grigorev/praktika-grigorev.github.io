@@ -1,0 +1,133 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>Грузоперевозки</title>
+  <link rel="icon" href="./images/image1.gif">
+  <link rel="stylesheet" href="./css/css.css">
+  <link rel="stylesheet" href="./css/css1.css">
+  <link rel="stylesheet" href="./css/button.css">
+ 
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <script type="./js/slide.js"></script>
+ <!--Назад вверх-->
+ <link rel="stylesheet" href="./css/css2.css">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="./js/js.js"></script>
+
+
+
+
+
+
+
+<!--КНОПНКА НАВЕХ-->
+<script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('<style>'+
+		'.scrollTop{ display:none; z-index:9999; position:fixed;'+
+			'bottom:20px; left:5%; width:88px; height:125px;'+
+			'background:url(images/top_arrow.gif) 0 0 no-repeat; }' +
+		'.scrollTop:hover{ background-position:0 -133px;}'
+	+'</style>').appendTo('body');
+	var
+	speed = 440,
+	$scrollTop = $('<a href="#" class="scrollTop">').appendTo('body');		
+	$scrollTop.click(function(e){
+		e.preventDefault();
+		$( 'html:not(:animated),body:not(:animated)' ).animate({ scrollTop: 0}, speed );
+	});
+ 
+	//появление
+	function show_scrollTop(){
+		( $(window).scrollTop() > 330 ) ? $scrollTop.fadeIn(700) : $scrollTop.fadeOut(700);
+	}
+	$(window).scroll( function(){ show_scrollTop(); } );
+	show_scrollTop();
+});
+</script>
+
+
+
+
+
+
+
+
+
+<p id="back-top">
+<a href="#top"><span></span>Back to Top</a>
+</p>
+</head>
+
+<body id="top" text="#333333" vlink="#aaaaaa" link="#0000ff" bgcolor="#fffff0">
+</p>
+<div class="page">
+<header>
+<div id="menu_top">
+<table width="100%">
+<tr>
+	<td width="20%">
+	<div class="logo"><a href="./index.html"><img src="images/logo_right.png" height="40px"></a></div>
+
+
+<a class="num" href="tel:+79000000000">+7(900) 000-00-00</a>
+    </td>
+</tr>
+	<td>
+		<ul id="nav">
+			<li>
+			<!--Документики, О нашей шарашке, Новости-->
+				<a href="info.html">О нас</a>
+			</li>
+			<li>
+				<a href="uslugi.html">Услуги</a>
+			</li>
+		<li>
+				<a href="vopros.html">Задать вопрос</a>
+			</li>
+			<li>
+				<a style="color: #f88" href="kontakt.html">Контакты</a>
+			</li>
+		</ul>
+	</td>
+</tr>
+</table>
+</header>
+
+
+
+<div id="content">
+<div>
+	<h2 style="text-align: center">Контактная информация</h2>
+	<span style="font-weight: bold; font-size: 16pt">Наш главный офис</span><p>г.Новосибирск, ул. Фабричная, 11а</p>
+	<span style="font-weight: bold; font-size: 16pt">Телефон</span><p><a style="text-decoration: none" href="tel:+79617360013">+7(900) 000-00-00</a></p>
+	<span style="font-weight: bold; font-size: 16pt">E-mail</span><p><a style="text-decoration: none" href="mailto:mr.priore@mail.ru">qwerty@mail.ru</a></p>
+	<span style="font-weight: bold; font-size: 16pt">Режим работы</span><p>10:00 - 22:00</p>
+</div>
+<!--Карта яндекс-->
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A48c5295b1872fd5ccad1ba31d60c08233cd14be9570c94f00e6da27d3af03793&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+</div>
+
+
+
+<footer>
+<ul id="nav">
+			<li>
+			<!--Документики, О нашей шарашке, Новости-->
+				<a href="info.html">О нас</a>
+			</li>
+			<li>
+				<a href="uslugi.html">Услуги</a>
+			</li>
+		<li>
+				<a href="vopros.html">Задать вопрос</a>
+			</li>
+			<li>
+				<a style="color: #f88" href="kontakt.html">Контакты</a>
+			</li>
+		</ul>
+</footer>
+</div>
+</body>
+</html>
